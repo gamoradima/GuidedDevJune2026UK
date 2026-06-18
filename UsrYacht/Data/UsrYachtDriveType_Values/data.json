@@ -7,12 +7,20 @@
           "Value": "1bb27b5f-de37-44d7-ae14-0ecd2383d984"
         },
         {
+          "SchemaColumnUId": "986bc369-c5bf-e1c5-7e9d-a6230973d605",
+          "Value": "#31C950"
+        },
+        {
           "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
-          "Value": "\/Date(1781773820760+0300)\/"
+          "Value": "\/Date(1781778448286+0300)\/"
         },
         {
           "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
           "Value": "\/Date(1781773820760+0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e86949e7-1ee6-4277-8e20-982a9c673fdb",
+          "Value": false
         }
       ]
     },
@@ -23,12 +31,20 @@
           "Value": "ce1d1c1d-c7dc-4101-8d3a-a109ca710241"
         },
         {
+          "SchemaColumnUId": "986bc369-c5bf-e1c5-7e9d-a6230973d605",
+          "Value": "#99A1AF"
+        },
+        {
           "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
-          "Value": "\/Date(1781773829211+0300)\/"
+          "Value": "\/Date(1781778453047+0300)\/"
         },
         {
           "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
           "Value": "\/Date(1781773829211+0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e86949e7-1ee6-4277-8e20-982a9c673fdb",
+          "Value": true
         }
       ]
     },
@@ -39,12 +55,20 @@
           "Value": "d590eb91-b649-4995-9eaf-8fe51131c307"
         },
         {
+          "SchemaColumnUId": "986bc369-c5bf-e1c5-7e9d-a6230973d605",
+          "Value": "#E61876"
+        },
+        {
           "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
-          "Value": "\/Date(1781773809109+0300)\/"
+          "Value": "\/Date(1781778431624+0300)\/"
         },
         {
           "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
           "Value": "\/Date(1781773809109+0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e86949e7-1ee6-4277-8e20-982a9c673fdb",
+          "Value": false
         }
       ]
     }
