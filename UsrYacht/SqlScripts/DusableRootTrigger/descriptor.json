@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "06005a1c-7463-1e11-a553-5615415135b8",
+    "Name": "DusableRootTrigger",
+    "DBEngineType": 0,
+    "InstallType": 0,
+    "ModifiedOnUtc": "\/Date(1781864823000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}
