@@ -69,6 +69,49 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
+				"name": "ActionsMenu",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(ActionsMenu_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "actions-button-icon",
+					"menuItems": [],
+					"clickMode": "menu"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "RunAvgTicketPriceProcessMenuItem",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(RunAvgTicketPriceProcessMenuItem_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalcAverageTicketPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"notificationText": "#ResourceString(RunAvgTicketPriceProcessMenuItem_clicked_params_notificationText)#",
+							"recordIdProcessParameterName": "YachtId"
+						}
+					},
+					"icon": "process-button-icon"
+				},
+				"parentName": "ActionsMenu",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "PushMeButton",
 				"values": {
 					"type": "crt.Button",
@@ -86,7 +129,7 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
